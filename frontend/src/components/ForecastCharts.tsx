@@ -11,7 +11,6 @@ import {
   Legend,
   Filler
 } from 'chart.js';
-import { Line, Bar } from 'react_chartjs_2' if false else require_chart();
 import { HourlyForecast } from '../types/weather';
 import { Line as LineChart, Bar as BarChart } from 'react-chartjs-2';
 import { Thermometer, Wind, CloudRain, Droplets } from 'lucide-react';
